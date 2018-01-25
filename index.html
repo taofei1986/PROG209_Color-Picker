@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Exercise 5: Color Picker</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <form>
+    <div id="gameBox">
+        <h2>CSS Color Displayer</h2>
+        <p>Select a number from 0 to 255 for each color value:</p>
+        <label for="redNumber">Red: <input id="redNumber" type="number" min="0" max="255" /><br/><br/>
+        <label for="greenNumber">Green: <input id="greenNumber" type="number" min="0" max="255" /><br/><br/>
+        <label for="blueNumber">Blue: <input id="blueNumber" type="number" min="0" max="255" /><br/><br/>
+        <input type="button" id="showButton" value="Show me the color"/> <input type="button" id="clearButton" value="Clear all"/><br/><br/>
+        Your color is:
+        <div id="colorShow"></div>
+        <label id="colorHexValue"></label><br/>
+    </div>
+    </form>>
+</body>
+<script src="js/scripts.js"></script>
+</html>
+
